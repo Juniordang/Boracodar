@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Embarque</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="Stylesheet" href="./style/index.css" />
+</head>
+<body>
+    <div id="s-app">
+        <h1 class="c-title">Cartão de Embarque</h1>
+        <div class="c-flight-info u-radius ">
+            <div class="c-flight__top">
+                <div>
+                    <span>Voo</span>
+                    <p class="u-bold">R$900</p>
+                </div>
+                <div class="c-data">
+                    <span>Data</span>
+                    <p class="u-bold">04/03/2021</p>
+                </div>
+            </div>
+            <div class="c-flight__bottom">
+                <div class="c-flight__departure">
+                    <div class="c-departure">
+                        <span>São paulo, Brasil</span>
+                        <p>
+                            <strong>Gru</strong>
+                        </p>
+                        <p class="c-flight__time">17:00</p>
+                    </div>
+                </div>
+                <div class="c-airplane">
+                    <i class="ph ph-airplane-in-flight"></i>
+                </div>
+                <div class="c-flight__arrival">
+                    <div class="c-arrival">
+                        <span>São Francisco, EUA</span>
+                        <p>
+                            <strong>Sfo</strong>
+                        </p>
+                        <p class="c-flight__time u-left__end">4:49</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-passenger-info u-radius">
+            <div class="c-passenger">
+                <span>Passageiro</span>
+                <p class="c-passenger__name u-bold">Junior Marcos</p>
+            </div>
+            <div class="c-seat">
+                <span>Assento</span>
+                <p class="c-seat__name u-bold">28A</p>
+            </div>
+        </div>
+        <div class="c-app__bottom u-radius">
+            <div class="c-boarding-info">
+                <div class="c-boarding">
+                    <div>
+                        <span>Embarque</span>
+                        <p class="c-boarding__hour">16:15</p>
+                    </div>
+                    <div>
+                        <span>Terminal</span>
+                        <p class="u-bold">2</p>
+                    </div>
+                    <div>
+                        <span>Portão</span>
+                        <p class="u-bold">15</p>
+                    </div>
+                </div>
+                <div class="c-qrcode">
+                    <img src="qrcode.jpg" alt="Qr code" />
+                    <p>Grupo de Embarque: 3</p>
+                </div>
+            </div>
+            <div class="c-alert">
+                <p>
+                    <span class="u-bold">Atenção:</span>
+                    O portão fecha 16:45
+                </p>
+            </div>
+        </div>
+        <footer>
+            <p>Qualquer problema procure o balcão de atendimento da sua companhia aérea</p>
+        </footer>
+    </div>
+</body>
+</html>

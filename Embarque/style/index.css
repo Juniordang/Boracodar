@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+}
+:root {
+    font-size: 62.5%;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    --gray: rgba(0, 0, 0, 0.64);
+    --white: #fff;
+    --purple: #633BBC;
+}
+body {
+    height: 100vh;
+    background-color: var(--purple);
+    position: relative;
+    font-size: 1.6rem;
+}
+button:hover {
+    cursor: pointer;
+}
+.u-radius {
+    border-radius: 2.4rem;
+}
+.u-bold {
+    font-weight: 600;
+}
+.u-border-bottom::after {
+    content: '';
+    width: 10rem;
+    height: 1rem;
+    background: red;
+    display: block;
+}
+span {
+    color: var(--gray);
+    font-size: 1.3rem;
+    display: inline-block;
+}
+.c-flight-info, .c-passenger-info, .c-app__bottom {
+    background: var(--white);
+}
+.c-flight__time {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: .5rem;
+}
+#s-app {
+    max-width: 34rem;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.c-title {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    color: var(--white);
+}
+.c-flight-info {
+    height: 19.1rem;
+    padding: 2.4rem 2.6rem;
+}
+.c-flight__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+}
+.c-flight__bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.c-flight__bottom p > strong {
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.c-departure {
+    width: 11rem;
+}
+/* airplane */
+.c-airplane i {
+    font-size: 3rem;
+}
+/* arrival */
+.c-flight__arrival {
+    width: 12.8rem;
+}
+.c-arrival p > strong {
+    display: flex;
+    justify-content: flex-end;
+}
+.u-left__end {
+    text-align: end;
+}
+/* passenger */
+.c-passenger-info {
+    padding: 2.4rem 2.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* boarding */
+.c-app__bottom {
+    padding: 2.4rem 2.6rem;
+}
+.c-boarding-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-boarding {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+.c-boarding__hour {
+    color: white;
+    background-color: var(--purple);
+    width: 5.4rem;
+    padding: .4rem .8rem;
+    border-radius: .8rem;
+}
+/* qr-code */
+.c-qrcode {
+    padding-left: 1.5rem;
+}
+.c-qrcode img {
+    max-width: 16rem;
+    width: 100%;
+}
+.c-qrcode p {
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--gray);
+}
+/* alert */
+.c-alert {
+    margin: 2.4rem auto;
+    text-align: center;
+}
+
+.c-app__bottom {
+    height: 26rem;
+}
+footer {
+    text-align: center;
+    color: var(--white);
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    padding: 1.5rem 0;
+}
+
+.test::after {
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 1rem;
+    color: red;
+}
