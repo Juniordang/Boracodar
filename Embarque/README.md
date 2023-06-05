@@ -1,15 +1,5 @@
 # Projeto Cartão de Embarque
-<style>
-    .title {
-        font-size: 2.5rem;
-        text-align: center;
-        border-radius: 999px;
-        padding: .3rem;
-        background-image: linear-gradient(to right, #633BBC,#000000a3);
-    }
-    
-</style>
-<div class="title">Cartão de Embarque</div>
+<div style="text-align: center; font-size: 2rem">Cartão de Embarque</div>
 <br>
 <p style="text-align: center">Layout de um cartão de embarque ✈</p>
 
