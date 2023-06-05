@@ -1,6 +1,4 @@
 # Projeto Cartão de Embarque
-<div style="text-align: center; font-size: 2rem">Cartão de Embarque</div>
-<br>
 <p style="text-align: center">Layout de um cartão de embarque ✈</p>
 
 ## Índice
