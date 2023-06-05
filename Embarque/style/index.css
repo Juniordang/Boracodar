@@ -8,7 +8,7 @@
 :root {
     font-size: 62.5%;
     font-family: 'Rubik', Arial, Helvetica, sans-serif;
-    --gray: rgba(0, 0, 0, 0.64);
+    --gray: #000000a3;
     --white: #fff;
     --purple: #633BBC;
 }
@@ -164,4 +164,10 @@ footer {
     width: 6rem;
     height: 1rem;
     color: red;
+}
+
+.title {
+    background-image: linear-gradient(to right, #633BBC,#000000a3);
+    background-clip: text;
+    --webkit-background-clip: text;
 }
